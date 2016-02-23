@@ -32,3 +32,18 @@ textarea {
     float:left;
     clear:both;
 }
+
+.text-p
+{
+    margin-bottom:0;
+}
+
+
+.green-border{
+    border:1px solid green;
+}
+
+.left-dir
+{
+    direction:rtl;
+}
