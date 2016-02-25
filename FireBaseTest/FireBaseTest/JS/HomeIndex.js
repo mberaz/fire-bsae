@@ -5,6 +5,7 @@ function ConversationNode(text,from,dir)
     this.Date = (new Date()).format("dd/MM/yyyy HH:mm");
     this.From = from;
     this.dir = dir;
+    //text, string date, string from
 }
 
 function CreateNodeDiv(node)
@@ -40,6 +41,14 @@ $(function ()
         conversationList.push(node);
 
         activeUser.set(from);
+
+        var worker = new Worker('/JS/logger.js');
+
+        worker.addEventListener('message', function (e) {
+            console.log('Worker said: ', e.data);
+        }, false);
+
+        worker.postMessage(node);
     });
 
 
