@@ -23,18 +23,18 @@ $.work = function (args) {
     return def.promise();
 };
 
-$.work({ file: 'test_worker.js', args: { anArg: "hello!" } }).then(function (data) {
-    //Worker completed successfully
-    console.log(data);
-}).fail(function (data) {
-    //Worker threw an error
-    console.log(data);
-});
+//$.work({ file: 'test_worker.js', args: { anArg: "hello!" } }).then(function (data) {
+//    //Worker completed successfully
+//    console.log(data);
+//}).fail(function (data) {
+//    //Worker threw an error
+//    console.log(data);
+//});
 
+///////////////////////
+//var worker1 = $.work({ file: 'primes.js', args: { from: 1, to: 500000 } });
+//var worker2 = $.work({ file: 'primes.js', args: { from: 500001, to: 1000000 } });
 
-var worker1 = $.work({ file: 'primes.js', args: { from: 1, to: 500000 } });
-var worker2 = $.work({ file: 'primes.js', args: { from: 500001, to: 1000000 } });
-
-$.when(worker1, worker2).done(function (result1, result2) {
-    //All finished! Combine the results from both workers.
-});
+//$.when(worker1, worker2).done(function (result1, result2) {
+//    //All finished! Combine the results from both workers.
+//});

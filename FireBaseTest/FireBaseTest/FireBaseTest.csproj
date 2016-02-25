@@ -180,7 +180,7 @@
     <Content Include="JS\HomeIndex.js" />
     <Content Include="JS\logger.js" />
     <Content Include="JS\StringExtend.js" />
-    <Content Include="JS\workerExt.js" />
+    <Content Include="JS\workerExtend.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
