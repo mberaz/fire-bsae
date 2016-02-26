@@ -31,6 +31,13 @@ $.work = function (args) {
 //    console.log(data);
 //});
 
+///////////////////
+//var worker = new Worker('/JS/logger.js');
+//worker.addEventListener('message', function (e) {
+//    console.log('Worker said: ', e.data);
+//}, false);
+//worker.postMessage(node);
+
 ///////////////////////
 //var worker1 = $.work({ file: 'primes.js', args: { from: 1, to: 500000 } });
 //var worker2 = $.work({ file: 'primes.js', args: { from: 500001, to: 1000000 } });

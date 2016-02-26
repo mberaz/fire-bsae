@@ -19,7 +19,7 @@ $(function () {
     var listDiv = $(".list");
 
     var baseUrl = 'https://torrid-heat-9968.firebaseio.com/';
-    var myDataRef = new Firebase(baseUrl);
+    //var myDataRef = new Firebase(baseUrl);
     var conversationList = new Firebase(baseUrl + 'conversations');
     var activeUser = new Firebase(baseUrl + 'activeUser');
     var label = $(".active");
@@ -46,12 +46,6 @@ $(function () {
             //Worker threw an error
             console.log(data);
         });
-
-        //var worker = new Worker('/JS/logger.js');
-        //worker.addEventListener('message', function (e) {
-        //    console.log('Worker said: ', e.data);
-        //}, false);
-        //worker.postMessage(node);
     });
 
 

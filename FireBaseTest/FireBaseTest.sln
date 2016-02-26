@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FireBaseTest", "FireBaseTest\FireBaseTest.csproj", "{3CFCDE4F-8AD9-4BD9-93DB-F316682BA87B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FireSharper", "FireSharper\FireSharper.csproj", "{9BCAEC1B-9E15-4921-A093-79AF0B8D703C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3CFCDE4F-8AD9-4BD9-93DB-F316682BA87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CFCDE4F-8AD9-4BD9-93DB-F316682BA87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CFCDE4F-8AD9-4BD9-93DB-F316682BA87B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCAEC1B-9E15-4921-A093-79AF0B8D703C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCAEC1B-9E15-4921-A093-79AF0B8D703C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCAEC1B-9E15-4921-A093-79AF0B8D703C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCAEC1B-9E15-4921-A093-79AF0B8D703C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
