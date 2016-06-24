@@ -13,6 +13,11 @@ namespace FireBaseTest.Controllers
             return View();
         }
 
+        public ActionResult Chat ()
+        {
+            return View();
+        }
+
         public ActionResult Log (string text,string date,string from)
         {
             Random r = new Random();

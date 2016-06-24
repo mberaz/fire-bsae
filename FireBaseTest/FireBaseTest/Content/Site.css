@@ -47,3 +47,8 @@ textarea {
 {
     direction:rtl;
 }
+
+.pointer
+{
+    cursor:pointer;
+}

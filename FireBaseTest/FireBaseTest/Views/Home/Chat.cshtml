@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Chat";
+}
+@section scripts
+{
+    <script src="~/JS/workerExtend.js"></script>
+    <script src="~/JS/StringExtend.js"></script>
+    <script src="~/JS/dateExtend.js"></script>
+    @*<script src="~/JS/logger.js"></script>*@
+    <script src="~/JS/ChatIndex.js"></script>
+}
+<div class="jumbotron">
+    <h1>FIREBASE TEST APP</h1>
+    <p class="lead">Open this app on 2 browser tabs, and start chating!</p>
+
+    <p> go to <a hef="https://www.firebase.com/"></a> to learn more</p>
+</div>
+
+<div>
+    <div class="row">
+        <h1 class="welcomeText">Welcome </h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-9">
+            <h3>Users</h3>
+            <ul class="users"></ul>
+        </div>
+        <div class="col-md-3">
+            <button type="button" class="btn btn-success addUser">Add User</button>
+        </div>
+    </div>
+
+    <div class="row newUserRow" style="display:none;">
+        <div class="col-md-9">
+            <h3>Insert user name</h3>
+            <input type="text" class="userNaem" placeholder="user name" style="width:800px;" />
+        </div>
+        <div class="col-md-3">
+            <button type="button" class="btn btn-success saveUser">Save</button>
+        </div>
+    </div>
+    <br />
+    <hr />
+
+
+    <div class="row">
+        <div class="col-md-9">
+            <input type="text" class="text" placeholder="text..." style="width:800px;" />
+        </div>
+        <div class="col-md-3">
+            <button type="button" class="btn btn-success postText">Post</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 fullChat" style="border: 1px solid black;">
+
+        </div>
+    </div>
+</div>
+
